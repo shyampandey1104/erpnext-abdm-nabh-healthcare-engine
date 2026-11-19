@@ -1,0 +1,1 @@
+abdm_nabh_healthcare.patches.v1_0.setup_initial_defaults

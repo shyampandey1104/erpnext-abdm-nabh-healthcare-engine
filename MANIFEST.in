@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include abdm_nabh_healthcare *.css
+recursive-include abdm_nabh_healthcare *.csv
+recursive-include abdm_nabh_healthcare *.html
+recursive-include abdm_nabh_healthcare *.ico
+recursive-include abdm_nabh_healthcare *.js
+recursive-include abdm_nabh_healthcare *.json
+recursive-include abdm_nabh_healthcare *.md
+recursive-include abdm_nabh_healthcare *.png
+recursive-include abdm_nabh_healthcare *.py
+recursive-include abdm_nabh_healthcare *.svg
+recursive-include abdm_nabh_healthcare *.txt
+recursive-exclude abdm_nabh_healthcare *.pyc
