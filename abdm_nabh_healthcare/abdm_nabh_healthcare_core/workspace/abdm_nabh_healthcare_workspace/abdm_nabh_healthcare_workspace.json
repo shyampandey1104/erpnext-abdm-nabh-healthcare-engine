@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Erpnext Abdm Nabh Healthcare Engine Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Erpnext Abdm Nabh Healthcare Engine Volume Trend",
+   "label": "Erpnext Abdm Nabh Healthcare Engine Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Erpnext Abdm Nabh Healthcare Engine Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Erpnext Abdm Nabh Healthcare Engine Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Erpnext Abdm Nabh Healthcare Engine",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Abdm Nabh Healthcare Engine Entry",
+   "label": "Erpnext Abdm Nabh Healthcare Engine Entry",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Abdm Nabh Healthcare Engine Audit Log",
+   "label": "Erpnext Abdm Nabh Healthcare Engine Audit Log",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Erpnext Abdm Nabh Healthcare Engine Summary",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Abdm Nabh Healthcare Engine Settings",
+   "label": "Erpnext Abdm Nabh Healthcare Engine Settings",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Abdm_Nabh_Healthcare_Core",
  "name": "Erpnext Abdm Nabh Healthcare Engine",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Erpnext Abdm Nabh Healthcare Engine Entry",
+   "label": "Recent Erpnext Abdm Nabh Healthcare Engine Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Erpnext Abdm Nabh Healthcare Engine Entrys",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Erpnext Abdm Nabh Healthcare Engine Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Erpnext Abdm Nabh Healthcare Engine"
 }
